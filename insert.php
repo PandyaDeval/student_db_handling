@@ -1,8 +1,9 @@
 <html>
+<link rel='stylesheet' href='styles.css'>
 <body>
 <pre>
 
-<a href='index.php'>Home</a>
+<a href='index.php'><button>Home</button></a>
 
 	<form name='form1' method='POST'>
 		Name		<input type='text' name='name'/>
@@ -15,7 +16,8 @@
 		
 		email		<input type='email' name='email'/>
 		
-		<input type='submit' name='submit'/>
+		
+	   <input class='xyz' type='submit' name='submit'/>
 	</form>
 </pre>
 </body>

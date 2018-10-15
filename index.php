@@ -12,17 +12,11 @@ $count=mysqli_fetch_row(mysqli_query($con,$count_qry));
 $count=$count[0];
 
 echo "<html>
-<style>
-td,th{
-	width:150px;
-	text-align:left;
-	padding:5px;
-}
-</style>
+<link rel='stylesheet' href='styles.css'>
 <body>
-	<a href='insert.php'>Insert</a><br>
-	<a href='update.php'>Update</a><br>
-	<a href='delete.php'>Delete</a><br><br><br>
+	<a href='insert.php'><button>Insert</button></a>
+	<a href='update.php'><button>Update</button></a>
+	<a href='delete.php'><button>Delete</button></a><br><br><br>
 	<table>
 	<tr>
 		<th>Id</th>

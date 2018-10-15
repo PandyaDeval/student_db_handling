@@ -1,4 +1,5 @@
 <html>
+<link rel='stylesheet' href='styles.css'>
 <script>
 function conditionfield1(){
 	var conditionvalue=document.getElementById("conditionfield").value;
@@ -28,7 +29,7 @@ function changefield1(){
 <body>
 <pre>
 
-<a href='index.php'>Home</a>
+<a href='index.php'><button>Home</button></a>
 
 <form method='POST'>
 	<select onchange='conditionfield1()' name='conditionfield' id="conditionfield">
@@ -56,7 +57,7 @@ function changefield1(){
 	
 	<div id='changedata'></div>
 	
-	<input type='submit' name='submit'/>
+	<input class='xyz' type='submit' name='submit'/>
 </form>
 
 </pre>

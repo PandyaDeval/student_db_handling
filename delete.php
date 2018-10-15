@@ -1,4 +1,5 @@
 <html>
+<link rel='stylesheet' href='styles.css'>
 <script>
 function textfield(){
 	var value=document.getElementById("field").value;
@@ -13,7 +14,7 @@ function textfield(){
 <body>
 <pre>
 
-<a href='index.php'>Home</a>
+<a href='index.php'><button>Home</button></a>
 
 <form method='POST'>
 	<select onchange='textfield()' name='field' id="field">
@@ -28,7 +29,7 @@ function textfield(){
 	
 	<div id='condition'></div>
 	
-	<input type='submit' name='submit'/>
+	<input class='xyz' type='submit' name='submit'/>
 </form>
 
 </pre>
