@@ -16,7 +16,7 @@ function textfield(){
 
 <a href='index.php'><button>Home</button></a>
 
-<form method='POST'>
+<form name='form1' method='POST'>
 	<select onchange='textfield()' name='field' id="field">
 		<option value='all'>All</option>
 		<option value='id'>Id</option>
